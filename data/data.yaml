@@ -1,0 +1,10 @@
+names:
+- crazing
+- inclusion
+- patches
+- pitted_surface
+- rolled-in_scale
+- scratches
+nc: 6
+train: /home/zjj/projects/yolo11/data/train/images
+val: /home/zjj/projects/yolo11/data/valid/images

@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.ckpt
+
+# TensorBoard
+logs/
+runs/
+events.out.tfevents.*
+
+# 实验结果（不要上传到GitHub）
+experiments/
+yolo11/
+results/
+results_map/
+
+# 数据集（数据集文件通常很大）
+data/train/
+data/valid/
+data/test/
+datasets-zip/
+
+# 预训练模型（模型文件很大）
+*.pt
+*.onnx
+*.engine
+*.torchscript
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 测试输出
+test_outputs/
+*.png
+*.jpg
+*.jpeg
+
+# 配置文件（如果包含敏感信息）
+config.yaml
+secrets.yaml
+credentials.json
+
+# 其他
+*.zip
+*.tar.gz
+*.rar
+
+# 第三方仓库
+ultralytics-repo/
